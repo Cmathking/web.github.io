@@ -1,0 +1,80 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+html body{font-size: 12px;font-family: "Microsoft YaHei ";color: #555555;background-color: #efeae4;}
+a{color: #555555;text-decoration: none;}
+.container{width: 1000px;margin: 0 auto;}
+.wrapper{float: left;width: 1000px;background-color: #ffffff;}
+.header{float: left;width: 1000px;height: 80px;background-color: #dc9158;}
+.header a{font-weight: bold;color: #ffffff;}
+.header a.logo{float: left;margin: 15px 0 0 24px;font-size:30px;}
+.nav{float: left;width: 1050px;height: 43px;line-height: 43px;font-size: 14px;font-weight: bold;background-color: #ffdfb6;}
+.header .gou{width: 150px;height: 80px;float: right;}
+.nav a{margin: 0 43px 0 25px;color: #a9836c;}
+.xing{width: 1000px;height: 60px;margin:  0 auto;}
+.xingtai{line-height: 60px;font-size: 18px;font-weight: bold;text-align: center;}
+.xtd{ width: 1000px;height: 210px; margin: -25px auto;}
+.xtz{font-size: 13px; line-height: 30px; padding-bottom: 20px; padding-top: 10px;}
+.kong{width: 1000px;margin: 30px auto;}
+.xxgou{width: 1000px;height: 10px;text-align: center;margin: 570px auto;}
+.xx{width: 1000px;height: 550px;margin: auto  0;}
+.banquan{width: 1000px;height: 100px;margin: 0 auto;background-color: #dc9158;}
+.bqwz{line-height: 100px;text-align: center;color: white;font-size: 10px;}
+.nav{position:relative;list-style:none;z-index: 999;float: left;}
+.nav>li{
+    float: left;
+    position: relative;
+    margin: 0 43px 0 25px;
+}
+
+.nav>li a{display:inline-block;color: #a9836c;}
+.nav>li>ul{
+    display: none;
+    position: absolute;
+    top: 43px;
+    left:-20px;
+    padding: 0px;
+    width: 100px;
+    background:rgba(0,0,0,.5);
+}
+
+.nav>li>ul li a{
+    display: block;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.nav>li>ul li a:hover{
+    color: #f1f1f1;
+}
+
+
+h2{
+    width: 200px;
+    text-align: center;
+    border-top: 1px solid #a9836c ;
+    border-bottom: 1px solid #a9836c ;
+    padding: 20px;
+    margin-top: 30px;
+}
+.xtd {
+    line-height: 40px;
+}
+.xtd div{
+    border-bottom: 1px solid #ccc;
+}
+.ppc {
+    font-size: 16px;
+    display: flex;
+}
+.ppc img{
+    width: 300px;
+    margin-left: 20px;
+    height: 200px;
+}
+.ppc:hover {
+    color: #dc9158;
+    font-size:20px;
+}
+.kong {
+    clear: both;
+}
